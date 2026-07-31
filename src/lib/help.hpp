@@ -4,12 +4,12 @@
 #include <iostream>
 #include <format>
 inline void phelp(void) {
-    auto help = std::format(R"(help:\n
--v          Prints the current version\n
--h          Prints this help screen\n
+    auto help = std::format(R"(help:
+-v          Prints the current version
+-h          Prints this help screen
 )");
 
-    std::cout<<help<<std::endl;
+    std::cout<<help;
     return;
 }
 
